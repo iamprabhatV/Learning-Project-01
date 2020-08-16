@@ -21,4 +21,26 @@
     .wrapper{
         padding: 0;
     }
+
+    &--no-margin-until-medium
+    {
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atMedium {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+
+    &--no-margin-until-large
+    {
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atMedium {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
 }
