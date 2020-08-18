@@ -64,6 +64,7 @@
             background-color: #fff;
             transition: all .3s ease-out;
             transform-origin: 0 50%;
+        }
         
         &::after{
             content: "";
@@ -120,7 +121,5 @@
             transform: scale(1);
         }
     }
-
-
    
 }
