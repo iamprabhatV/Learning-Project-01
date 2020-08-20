@@ -1,4 +1,4 @@
-xports.handler = function(event, context, callback) {
+exports.handler = function(event, context, callback) {
     const secretContent = `
     <h3>Welcome To The Secret Area</h3>
     <p>Here we can tell you that the sky is <strong>blue</strong>, and two plus two equals four.</p>
